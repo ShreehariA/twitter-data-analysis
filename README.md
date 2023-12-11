@@ -1,6 +1,7 @@
 # Sentiment Analysis and Topic Modeling for Tweets
 ## Overview
-This Python script conducts sentiment analysis and topic modeling on a dataset of tweets, utilizing the pysentimiento library and a pre-trained model (cardiffnlp/tweet-topic-21-multi). The analysis involves extracting sentiments and topics from tweets, followed by aggregating statistics based on retweets, favorites, and followers.
+This Python script conducts sentiment analysis and topic modeling on a dataset of tweets, utilizing the pysentimiento library and a pre-trained model (cardiffnlp/tweet-topic-21-multi). The analysis involves extracting sentiments and topics from tweets, followed by aggregating statistics based on retweets, favorites, and followers. Approximately **~94.53%** accuracy was achieved for this specific use case.\
+**Accuracy:0.9453422437803131** (mean prob score for the applied models)
 ### Sentiment Analysis
 The sentiment analysis is performed using [pysentimiento](https://github.com/pysentimiento/pysentimiento), a powerful tool built for sentiment analysis tasks. This tool utilizes a pre-trained model trained on a diverse set of approximately 40,000 tweets. Specifically, it relies on [BERTweet](https://github.com/VinAIResearch/BERTweet), a RoBERTa model fine-tuned for sentiment analysis on English tweets. The choice of these tools ensures accurate and context-aware sentiment analysis. For more details, you can refer to the [Hugging Face model page](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis).
 ### topic modeling 
